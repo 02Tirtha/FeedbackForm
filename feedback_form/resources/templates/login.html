@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SmartVehicle Login</title>
+  <style>
+    /* Same styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      height: 100vh;
+      background: #0c0c0c;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .login-container {
+      background: #1b1b1b;
+      padding: 40px 30px;
+      width: 320px;
+      border-radius: 15px;
+      text-align: center;
+      box-shadow: 0 0 15px rgba(255, 100, 0, 0.4);
+      transition: all 0.4s ease;
+      animation: float 4s ease-in-out infinite;
+    }
+
+    @keyframes float {
+      0%, 100% {
+        transform: translateY(0px);
+      }
+      50% {
+        transform: translateY(-10px);
+      }
+    }
+
+    .login-container h2 {
+      color: #ff6600;
+      margin-bottom: 25px;
+      font-size: 24px;
+      animation: fadeInDown 1s;
+    }
+
+    @keyframes fadeInDown {
+      from {
+        opacity: 0;
+        transform: translateY(-20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .login-container input {
+      width: 100%;
+      padding: 12px 15px;
+      margin: 10px 0;
+      border: 1px solid #555;
+      background: #292929;
+      border-radius: 8px;
+      color: white;
+      font-size: 14px;
+      outline: none;
+      transition: all 0.3s;
+    }
+
+    .login-container input:focus {
+      border-color: #ff6600;
+      box-shadow: 0 0 8px #ff6600;
+      background: #333;
+    }
+
+    .login-container button {
+      width: 100%;
+      padding: 12px;
+      margin-top: 20px;
+      background: #ff6600;
+      border: none;
+      border-radius: 8px;
+      /* color: white; */
+      font-weight: bold;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background 0.4s, transform 0.3s;
+    }
+
+    .login-container button:hover {
+      background: #e65c00;
+      transform: scale(1.05);
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <div class="login-container">
+    <h2>Login to Continue</h2>
+    <form id="loginForm">
+      <input type="text" id="username" placeholder="Username" required><br>
+      <input type="email" id="email" placeholder="Email Address" required><br>
+      <input type="password" id="password" placeholder="Password (min 6 characters)" required><br>
+      <button type="submit">Sign In</button>
+    </form>
+
+  </div>
+
+  <script src="login.js"></script>
+
+</body>
+</html>
