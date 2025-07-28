@@ -22,7 +22,7 @@ This is a basic full-stack project designed for learning Java full-stack develop
 | Submit Feedback Form | ![Submit](Screenshot/SubmitFeedback.png) |
 | After Submission | ![Submitted](Screenshot/Submited_Feedback.png) |
 | Delete Feedback Page | ![Delete](Screenshot/DeleteFeedback.png) |
-| After Deletion | ![Deleted](Screenshot/deleted_Feedback.png) |
+| After Deletion | ![Deleted](Screenshot/Deleted_Feedback.png) |
 
 
 # Setup Instructions
