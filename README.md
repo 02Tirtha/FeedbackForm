@@ -15,6 +15,16 @@ This is a basic full-stack project designed for learning Java full-stack develop
 - MySQL
 - HTML, CSS, JavaScript (Frontend)
 
+## Screenshots
+| Feature | Screenshot |
+|---------|------------|
+| Login Page | ![Login](screenshots/Login_Feedback.png) |
+| Submit Feedback Form | ![Submit](screenshots/SubmitFeedback.png) |
+| After Submission | ![Submitted](screenshots/Submited_Feedback.png) |
+| Delete Feedback Page | ![Delete](screenshots/DeleteFeedback.png) |
+| After Deletion | ![Deleted](screenshots/deleted_Feedback.png) |
+
+
 # Setup Instructions
 - Clone the repository:
   ```bash
